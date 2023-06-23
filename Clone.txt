@@ -1,0 +1,52 @@
+asus@DESKTOP-ICEVAHP MINGW64 /d/desarrollo/educationit/bootcamp-java-universidad-2023/Desafio2
+$ git clone https://github.com/pame-aroni/DesafiosGit.git
+Cloning into 'DesafiosGit'...
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 17 (delta 0), reused 17 (delta 0), pack-reused 0
+Receiving objects: 100% (17/17), done.
+
+asus@DESKTOP-ICEVAHP MINGW64 /d/desarrollo/educationit/bootcamp-java-universidad-2023/Desafio2
+$ dir
+DesafiosGit
+
+asus@DESKTOP-ICEVAHP MINGW64 /d/desarrollo/educationit/bootcamp-java-universidad-2023/Desafio2
+$ cd DesafiosGit
+
+asus@DESKTOP-ICEVAHP MINGW64 /d/desarrollo/educationit/bootcamp-java-universidad-2023/Desafio2/DesafiosGit (desafio1)
+$ dir
+GitLog.txt  README.md
+
+asus@DESKTOP-ICEVAHP MINGW64 /d/desarrollo/educationit/bootcamp-java-universidad-2023/Desafio2/DesafiosGit (desafio1)
+$ git branch -a
+* desafio1
+  remotes/origin/HEAD -> origin/desafio1
+  remotes/origin/desafio1
+  remotes/origin/desafio2
+
+asus@DESKTOP-ICEVAHP MINGW64 /d/desarrollo/educationit/bootcamp-java-universidad-2023/Desafio2/DesafiosGit (desafio1)
+$ git checkout desafio2
+Switched to a new branch 'desafio2'
+branch 'desafio2' set up to track 'origin/desafio2'.
+
+asus@DESKTOP-ICEVAHP MINGW64 /d/desarrollo/educationit/bootcamp-java-universidad-2023/Desafio2/DesafiosGit (desafio2)
+$ dir
+
+asus@DESKTOP-ICEVAHP MINGW64 /d/desarrollo/educationit/bootcamp-java-universidad-2023/Desafio2/DesafiosGit (desafio2)
+$ touch Ej1.txt
+
+asus@DESKTOP-ICEVAHP MINGW64 /d/desarrollo/educationit/bootcamp-java-universidad-2023/Desafio2/DesafiosGit (desafio2)
+$ vim Ej1,txt
+
+asus@DESKTOP-ICEVAHP MINGW64 /d/desarrollo/educationit/bootcamp-java-universidad-2023/Desafio2/DesafiosGit (desafio2)
+$ git add .
+warning: in the working copy of 'Ej1,txt', LF will be replaced by CRLF the next time Git touches it
+
+asus@DESKTOP-ICEVAHP MINGW64 /d/desarrollo/educationit/bootcamp-java-universidad-2023/Desafio2/DesafiosGit (desafio2)
+$ git commit -m "Add file Ej1"
+[desafio2 823f07d] Add file Ej1
+ 2 files changed, 1 insertion(+)
+ create mode 100644 Ej1,txt
+ create mode 100644 Ej1.txt
+
